@@ -11,7 +11,7 @@ I have no web development skills and experience and I'd like to gain new knowled
 I have no skills yet.
 
 ## *Code example*
-I'll upload it later when I have it...
+I'll upload it later when I have it.
 
 
 ## *Education and courses*
