@@ -1,1 +1,1 @@
-# rsschool-cv
+https://YamamotoHomura.github.io/rsschool-cv/cv
