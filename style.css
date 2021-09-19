@@ -14,22 +14,24 @@ body, h1, h2, h3, h4, p, a {
 
   .wrapper {
     margin: auto;
-    width: 1200px;
-    max-width: 90%;
-    min-width: 500px;
+    max-width: 1200px;
+    min-width: 300px;
     box-shadow: 0 0 15px rgba(135, 124, 194, 0.795);
   }
 
+  
   .header {
     display: flex;
     background-color: #5e401f;
     width: 100%;
-    height: 50px;
+    min-height: 50px;
+    max-height: 300px;
   }
 
   .menu {
     display: inline-block;
     list-style-type: none;
+    width: 100%;
     margin: 0;
     padding: 0;
   }
@@ -39,7 +41,7 @@ body, h1, h2, h3, h4, p, a {
     margin: 0;
     padding: 0;
     position: relative;
-    left: 150px;
+    text-align: center;
     }
 
   .menu li {
@@ -50,7 +52,7 @@ body, h1, h2, h3, h4, p, a {
     font-size: 20px;
     line-height: 1.9;
     font-weight: 600;
-    margin-left: 2.2vw;
+    margin: 8px;
   }
 
   .menu a {
@@ -58,15 +60,12 @@ body, h1, h2, h3, h4, p, a {
     text-decoration: none;
   }
 
-  .menu a:visited {
-    color: #ffffff; 
-    text-decoration: none;
-   }
-
    .photo_container {
     display: inline-block; 
-    width: 400px;
-    height: 980px;
+    max-width: 1200px;
+    min-width: 400px;
+    min-height: 980px;
+    max-height: 1800px;
     background-color: #9bb8d8bd;
    }
 
@@ -99,8 +98,9 @@ body, h1, h2, h3, h4, p, a {
     }
 
     .info_container {
-      width: 800px;
-      height: 980px;
+      max-width: 800px;
+      min-height: 980px;
+      max-height: 1800px;
       background-color: #dadada;
       float: right;
     }
@@ -127,7 +127,8 @@ body, h1, h2, h3, h4, p, a {
       display: flex;
       background-color: #5e401f;
       width: 100%;
-      height: 100px;
+      min-height: 100px;
+      max-height: 400px;
     }
 
     .footer_p {
