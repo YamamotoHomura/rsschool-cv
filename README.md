@@ -1,1 +1,1 @@
-https://YamamotoHomura.github.io/rsschool-cv/cv
+https://YamamotoHomura.github.io/rsschool-cv/
