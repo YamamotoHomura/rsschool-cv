@@ -1,0 +1,144 @@
+body, h1, h2, h3, h4, p, a {
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+
+  .wrapper {
+    margin: auto;
+    max-width: 1200px;
+    min-width: 300px;
+    box-shadow: 0 0 15px rgba(135, 124, 194, 0.795);
+  }
+
+  
+  .header {
+    display: flex;
+    background-color: #5e401f;
+    width: 100%;
+    min-height: 50px;
+    max-height: 300px;
+  }
+
+  .menu {
+    display: inline-block;
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    }
+
+  .menu li {
+    display: inline-block;
+    font-family: 'Open Sans';
+    color: #ffffff;
+    opacity: 0.8;
+    font-size: 20px;
+    line-height: 1.9;
+    font-weight: 600;
+    margin: 8px;
+  }
+
+  .menu a {
+    color: #ffffff; 
+    text-decoration: none;
+  }
+
+   .photo_container {
+    display: inline-block; 
+    max-width: 1200px;
+    min-width: 400px;
+    min-height: 980px;
+    max-height: 1800px;
+    background-color: #9bb8d8bd;
+   }
+
+   .h1 {
+    font-family: Raleway;
+    font-size: 50px;
+    color: #5e401f;
+    text-shadow: 2px 1px 5px rgba(94, 130, 231, 0.89);
+    text-align: center;
+    padding-top: 20px;
+  }
+
+   .photo {
+    width: 250px;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    }
+
+    .h2_contacts {
+      font-family: Raleway;
+      font-size: 40px;
+      color: #5e401f;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .photo_container li {
+      margin: 20px;
+    }
+
+    .info_container {
+      max-width: 800px;
+      min-height: 980px;
+      max-height: 1800px;
+      background-color: #dadada;
+      float: right;
+    }
+
+    .h2 {
+      font-family: Raleway;
+      font-size: 30px;
+      color: #5e401f;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .p {
+      font-family: 'Open Sans';
+      font-size: 20px;
+      padding: 10px;
+    }
+
+    .info_container li {
+      padding-top: 10px;
+    }
+
+    .footer {
+      display: flex;
+      background-color: #5e401f;
+      width: 100%;
+      min-height: 100px;
+      max-height: 400px;
+    }
+
+    .footer_p {
+      display: inline-block;
+      position: relative;
+      padding-left: 135px;
+      padding-right: 135px;
+      padding-top: 30px;
+      font-size: 30px;
+      color: #000000;
+    }
+
+
